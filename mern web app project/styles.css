@@ -1,0 +1,100 @@
+
+header {
+    text-align: center;
+    background: radial-gradient(circle, #08578b, #87ceeb);
+    padding: 20px 0;
+    font-family: Garamond, serif; /* Changing font family to Garamond */
+}
+
+.company-name {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+
+.company-name {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px; /* Reduced margin */
+}
+
+.input-container, .display-container {
+    width: 45%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.input-container {
+    margin-right: 10px;
+}
+
+.input-container h2, .display-container h2 {
+    color: #3498db;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.input-container input, .input-container select, .input-container button {
+    display: block;
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.input-container input[type="date"] {
+    padding: 8px;
+}
+
+.input-container button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+    background-color: #2980b9;
+}
+
+.display-container #jobList {
+    margin-top: 20px;
+}
+
+.job-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.job-item button:hover {
+    background-color: #c0392b;
+}
